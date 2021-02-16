@@ -1,14 +1,15 @@
 import Display from "../components/Display";
 // import style from "../css/Calculator.module.css";
+import ButtonsContainer from "./ButtonsContainer";
 import { calculator } from "../css/Calculator.module.css";
 
-function Calculator () {
+function Calculator() {
   return (
     <div className={calculator}>
       <Display />
-      <h1>This is the ButtonsContainer component</h1>
+      <ButtonsContainer />
     </div>
-  )
+  );
 }
 
 export default Calculator;
