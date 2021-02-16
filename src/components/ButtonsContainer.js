@@ -25,7 +25,7 @@ function ButtonsContainer() {
   return (
     <div className={buttons}>
       {buttonValues.map((value) => (
-        <Button key={value} />
+        <Button key={value} data={value} />
       ))}
     </div>
   );
