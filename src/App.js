@@ -1,9 +1,12 @@
 import Home from "./pages/Home";
+import DataContext from "./contexts/DataContext";
 
 function App() {
   return (
     <div className="app">
-      <Home />
+      <DataContext>
+        <Home />
+      </DataContext>
     </div>
   );
 }
